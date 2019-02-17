@@ -3,7 +3,6 @@ FROM tomcat:8-alpine
 LABEL net.skyplabs.maintainer.name="Paul-Emmanuel Raoul"
 LABEL net.skyplabs.maintainer.email="skyper@skyplabs.net"
 LABEL version="2.0.0"
-
 ARG WEBPROTEGE_VERSION="3.0.0"
 ARG WEBPROTEGE_DATA_DIR=/srv/webprotege
 ARG WEBPROTEGE_LOG_DIR=/var/log/webprotege
