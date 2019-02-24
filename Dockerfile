@@ -1,5 +1,4 @@
 FROM tomcat:8-alpine
-
 LABEL net.skyplabs.maintainer.name="Paul-Emmanuel Raoul"
 LABEL net.skyplabs.maintainer.email="skyper@skyplabs.net"
 LABEL version="2.0.0"
