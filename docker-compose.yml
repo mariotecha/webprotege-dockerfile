@@ -6,7 +6,7 @@ services:
     depends_on:
       - mongodb
     ports:
-      - "8888:8080"
+      - "8888:8081"
     volumes:
       - webprotege_data:/srv/webprotege
       - webprotege_logs:/var/log/webprotege
